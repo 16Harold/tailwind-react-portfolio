@@ -6,7 +6,7 @@ import {Link} from 'react-scroll'
 import Linkedin from '../assets/linkedin.png'
 import Github from '../assets/github.png'
 import Mail from '../assets/email.png'
-import Resume from '../assets/resume.png'
+import Fb from '../assets/fb.png'
 
 
 const Navbar = () => {
@@ -86,32 +86,32 @@ const Navbar = () => {
          <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ccd6f6]'>
                 <a className='flex justify-between items-center text-gray-800 font-bold'
-                href="/">
+                href="https://www.linkedin.com/in/harold-lopez-0a4473252/">
                     Linkedin
                 </a>
                 <img src={Linkedin} alt="linkedin"  className='px-4'/> 
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8892b0]'>
                 <a className='flex justify-between items-center text-gray-800 font-bold'
-                href="/">
+                href="https://github.com/16Harold">
                     Github
                 </a>
                 <img src={Github} alt="github"  className='px-7'/> 
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
                 <a className='flex justify-between items-center text-gray-800 font-bold'
-                href="/">
+                href="#contact">
                     Email
                 </a>
                 <img src={Mail} alt="email"  className='px-9'/> 
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#18b8c1]'>
                 <a className='flex justify-between items-center text-gray-800 font-bold'
-                href="/">
-                    Resume
+                href="https://www.facebook.com/hgharold.lopez">
+                    Facebook
                 </a>
-                <img src={Resume} alt="resume"  className='px-5'/> 
-            </li>
+                <img src={Fb} alt="facebook logo"  className='px-2'/> 
+            </li> 
          </ul>
        </div>
 
