@@ -5,6 +5,7 @@ import MlconverterImg from '../assets/ml-converter.png'
 import BmiImg from '../assets/bmi.png'
 import WeightConImg from '../assets/weight-con.png'
 import OlibImg from '../assets/o-lib.png'
+import Bp from '../assets/bootstrap-portfolio.png'
 
 const Projects = () => {
   return (
@@ -122,19 +123,19 @@ const Projects = () => {
              {/*end of grid items  */}
              
              {/*Grid Items  */}
-                <div style={{ backgroundImage:`url(${ProjectImg})`}} 
+                <div style={{ backgroundImage:`url(${Bp})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100 text-center bg-[#0a192f]'>
                        <span className='text-2xl font-bold text-[#18b8c1] tracking-wider'>
-                       Coming soon...
+                       Html, Css, Bootstrap Application
                        </span>
                        <div className='pt-8 text-center'>
-                           <a href='/'>
+                           <a href='https://16harold.github.io/bootstrap-portfolio/'>
                               <button className='text-center rounded-lg px-4 py-1 m-2 bg-[#18b8c1] text-gray-700 font-bold text-lg'>Link</button> 
                            </a>
-                           <a href='/'>
+                           <a href='https://github.com/16Harold/bootstrap-portfolio'>
                               <button className='text-center rounded-lg px-4 py-1 m-2 bg-[#18b8c1] text-gray-700 font-bold text-lg'>Code</button> 
                            </a>
                        </div>
