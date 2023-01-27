@@ -9,7 +9,7 @@ import Bp from '../assets/bootstrap-portfolio.png'
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full text-gray-300 bg-[#0a192f] md:h-screen'>
+    <div name='projects' className='w-full text-gray-300 bg-[#0a192f] md:h-full'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-[#18b8c1]'>PROJECTS</p>
